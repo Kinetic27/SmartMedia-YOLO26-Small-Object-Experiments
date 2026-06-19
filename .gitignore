@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+*.pem
+*.key
+
+# Local data and generated artifacts
+data/
+dataset/
+datasets/
+runs/
+outputs/
+output/
+logs/
+*.log
+
+# Model/export artifacts
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+*.npy
+*.npz
+
+# Media/notebooks
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.ipynb
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

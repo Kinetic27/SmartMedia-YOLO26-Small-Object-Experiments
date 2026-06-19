@@ -1,0 +1,8 @@
+# Copy this file to dataset.yaml and replace paths for your local YOLO-format dataset.
+path: ./datasets/example
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: object

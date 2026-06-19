@@ -1,0 +1,9 @@
+variant,imgsz,epochs,mAP50,mAP50_95,small_recall,params_m,flops_g,latency_ms,notes
+baseline,320,1,0,0,,2.643,6.7,1.5,coco8 sanity run on CUDA:0
+p2,320,1,0,0,,2.762,11.6,2.1,coco8 sanity run on CUDA:0
+spd,320,1,0,0,,2.658,,1.5,coco8 sanity run on CUDA:0
+spd_p2,320,1,0,0,,2.777,,2.2,coco8 sanity run on CUDA:0
+baseline,640,1,0,0,,2.611,6.5,1.7,VisDrone sanity run fraction=0.01 on CUDA:0
+p2,640,1,0,0,,2.690,10.6,2.3,VisDrone sanity run fraction=0.01 on CUDA:0
+spd,640,1,0,0,,2.626,,1.7,VisDrone sanity run fraction=0.01 on CUDA:0
+spd_p2,640,1,0,0,,2.705,,2.5,VisDrone sanity run fraction=0.01 on CUDA:0

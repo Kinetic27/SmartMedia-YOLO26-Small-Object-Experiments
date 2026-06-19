@@ -1,0 +1,23 @@
+{
+  "labels_dir": "datasets/VisDrone/labels/train",
+  "files": 6471,
+  "boxes": 343205,
+  "counts": {
+    "very_small": 236712,
+    "small": 96248,
+    "medium": 9851,
+    "large": 394
+  },
+  "ratios": {
+    "very_small": 0.6897102314942964,
+    "small": 0.28043880479596744,
+    "medium": 0.028702961786687256,
+    "large": 0.0011480019230489067
+  },
+  "recommendation": "P2 + SPD 우선 검토",
+  "thresholds": {
+    "very_small_max_area_ratio": 0.001,
+    "small_max_area_ratio": 0.009,
+    "medium_max_area_ratio": 0.04
+  }
+}
